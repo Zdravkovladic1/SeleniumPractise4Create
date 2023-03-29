@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Product tests">
+
+    <parameter name="newTabUrl" value="http://www.webdriveruniversity.com/"/>
+    <parameter name="contactUsUrl" value="http://www.webdriveruniversity.com/Contact-Us/contactus.html"/>
+
+
+    <test name="SeleniumPractice">
+        <classes>
+            <class name="tests.SeleniumPracticeTests"/>
+        </classes>
+    </test>
+
+</suite>
